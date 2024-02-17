@@ -29,6 +29,9 @@ DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = ['*']
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+"""
+Se cambio y se añadio un doc string
+"""
 
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
