@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'SecretariaInovacion.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:ga24AG5A44ec-eGe143eDdfDEbG2EEE1@viaduct.proxy.rlwy.net:34046/railway',
+        default='postgres://utiles_c2wb_user:ciUyDI1sMu1tc6qXWypI135f5XllSI67@dpg-cndvr1f79t8c738fejng-a/utiles_c2wb',
     )
 }
 
