@@ -8,7 +8,7 @@ from funcionarios_app.models import Funcionario
 '''
 def numero_random():
     while True:
-        random_number = random.randint(1, 100000)  # Puedes ajustar los límites según tus necesidades
+        random_number = random.randint(1, 1000000)  # Puedes ajustar los límites según tus necesidades
         if not Paquete.objects.filter(numero_entrega=random_number).exists():
             return random_number
 
