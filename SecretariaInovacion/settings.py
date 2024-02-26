@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-90-s(wvn%2*tuo&ffa8heaqz#cnxrd*w&krnxpo0yv9$22))d8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['utiles-backend-production.up.railway.app', '127.0.0.1', 'utiles-frontend-phr64qtnl-vazquez1240.vercel.app', 'utiles-frontend.vercel.app']
+ALLOWED_HOSTS = ['utiles-backend-production.up.railway.app', '127.0.0.1', 'utiles-frontend.vercel.app']
 
 
 # Application definition
@@ -159,4 +159,4 @@ REST_FRAMEWORK = {
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CSRF_TRUSTED_ORIGINS = ['https://utiles-frontend-phr64qtnl-vazquez1240.vercel.app','https://utiles-backend-production.up.railway.app', 'https://utiles-frontend.vercel.app']
+CSRF_TRUSTED_ORIGINS = ['https//*','https://utiles-frontend-phr64qtnl-vazquez1240.vercel.app','https://utiles-backend-production.up.railway.app', 'https://utiles-frontend.vercel.app']
