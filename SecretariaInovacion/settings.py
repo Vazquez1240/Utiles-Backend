@@ -159,4 +159,4 @@ REST_FRAMEWORK = {
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CSRF_TRUSTED_ORIGINS = ['https//*','https://utiles-frontend-phr64qtnl-vazquez1240.vercel.app','https://utiles-backend-production.up.railway.app', 'https://utiles-frontend.vercel.app']
+CSRF_TRUSTED_ORIGINS = ['https://*','https://utiles-frontend-phr64qtnl-vazquez1240.vercel.app','https://utiles-backend-production.up.railway.app', 'https://utiles-frontend.vercel.app']
