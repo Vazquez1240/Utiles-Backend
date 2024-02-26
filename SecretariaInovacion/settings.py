@@ -58,6 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'SecretariaInovacion.urls'
@@ -143,6 +144,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    'https://utiles-frontend.vercel.app'
 ]
 
 REST_FRAMEWORK = {
@@ -158,4 +160,4 @@ REST_FRAMEWORK = {
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CSRF_TRUSTED_ORIGINS = ['https://*','https://utiles-frontend-phr64qtnl-vazquez1240.vercel.app','https://utiles-backend-production.up.railway.app', 'https://utiles-frontend.vercel.app']
+CSRF_TRUSTED_ORIGINS = ['https://*','https://utiles-backend-production.up.railway.app', 'https://utiles-frontend.vercel.app']
