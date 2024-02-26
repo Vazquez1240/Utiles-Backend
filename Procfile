@@ -1,1 +1,1 @@
-web: python manage.py collectstatic && gunicorn SecretariaInovacion.wsgi
+web: python manage.py collectstatic && python manage.py makemigrations && python manage.py migrate && gunicorn SecretariaInovacion.wsgi
