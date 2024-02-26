@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'SecretariaInovacion.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://utiles_c2wb_user:ciUyDI1sMu1tc6qXWypI135f5XllSI67@dpg-cndvr1f79t8c738fejng-a/utiles_c2wb',
+        default='postgres://utiles_c2wb_user:ciUyDI1sMu1tc6qXWypI135f5XllSI67@dpg-cndvr1f79t8c738fejng-a.oregon-postgres.render.com/utiles_c2wb'
     )
 }
 
