@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-90-s(wvn%2*tuo&ffa8heaqz#cnxrd*w&krnxpo0yv9$22))d8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['utiles-backend-production.up.railway.app', '127.0.0.1', 'utiles-frontend.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -60,7 +60,6 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-ROOT_URLCONF = 'SecretariaInovacion.urls'
 ROOT_URLCONF = 'SecretariaInovacion.urls'
 
 TEMPLATES = [
